@@ -1,3 +1,5 @@
+### USE NEW VERSION: https://github.com/biglinux/rtl8831
+
 # RTL88X1
 Realtek Linux driver for USB AX900 Wifi 6 devices 8851bu and 8831bu
 
