@@ -1,3 +1,5 @@
+### USE NEW VERSION: https://github.com/biglinux/rtl8831
+
 # RTL88X1
 Realtek Linux driver for USB AX900 Wifi 6 devices 8851bu and 8831bu
 
@@ -11,20 +13,23 @@ This includes unbranded AX900 USB WiFi 6 Bluetooth 5.3 Adapters sold on AliExpre
 Example: https://www.aliexpress.us/item/3256807263559115.html
 
 
+To dkms install: 
 
-To install: 
-
-$make
-
-$sudo make install
+`$ sudo dkms install .`
 
 
+To manually install: 
+
+`$ make`
+
+`$ sudo make install`
 
 
-You will have to reinstall for any kernel updates.
 
-$make clean
+Using manually install you will have to reinstall for any kernel updates.
 
-$make
+`$ make clean`
 
-$sudo make install
+`$ make`
+
+`$ sudo make install`
